@@ -1,0 +1,10 @@
+<div class="card-columns text-center m-3 mb-5 text-white">
+  <div class="card bg-dark" style="width: 18rem;" *ngFor="let categoria of categorias; let i = index">
+    <img class="card-img-top" src="./../../../assets/img/{{categoria.imagen}}" alt="Not found xd">
+    <div class="card-body">
+      <h5 class="card-title">{{categoria.descripcion}}</h5>
+      <a><button (click)="eliminar(categoria.descripcion)" class="btn btn-outline-danger zoom">
+          Eliminar</button></a>
+    </div>
+  </div>
+</div>

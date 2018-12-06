@@ -8,6 +8,9 @@ import { BuscadorComponent } from './components/buscador/buscador.component';
 import { TablaComponent } from './components/tabla/tabla.component';
 import { HomeComponent } from './components/home/home.component';
 import { APPROUTING } from './app.routes';
+import { SelectsComponent } from './components/selects/selects.component';
+import { CategoriasComponent } from './components/categorias/categorias.component';
+import { Tabla2Component } from './components/tabla2/tabla2.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { APPROUTING } from './app.routes';
     NavbarComponent,
     BuscadorComponent,
     TablaComponent,
-    HomeComponent
+    HomeComponent,
+    SelectsComponent,
+    CategoriasComponent,
+    Tabla2Component
   ],
   imports: [
     BrowserModule,

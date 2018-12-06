@@ -26,4 +26,8 @@ export class BuscadorComponent implements OnInit {
   eliminar(elemento: string) {
     console.log(elemento);
   }
+
+  save(elemento: string) {
+    console.log(elemento);
+  }
 }

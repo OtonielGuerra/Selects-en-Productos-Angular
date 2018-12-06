@@ -19,4 +19,8 @@ export class ProductosComponent implements OnInit {
     console.log(parametro);
   }
 
+  save(elemento: string) {
+    console.log(elemento);
+  }
+
 }

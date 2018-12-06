@@ -1,22 +1,11 @@
-<div class="container m-5">
-<table class="table">
-  <thead class="thead-dark">
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">DESCRIPCION</th>
-      <th scope="col">PRECIO</th>
-      <th scope="col">IMAGEN</th>
-      <th scope="col">Opciones</th>
-    </tr>
-  </thead>
-  <tbody *ngFor="let producto of productos; let i = index">
-    <tr>
-      <th scope="row">{{ i + 1}}</th>
-      <td>{{producto.descripcion}}</td>
-      <td>{{producto.precio}}</td>
-      <td><img src="assets/img/{{producto.imagen}}" alt=""></td>
-      <td><button (click) = "eliminar(producto.descripcion)" class="btn btn-danger">Eliminar</button></td>
-    </tr>
-  </tbody>
-</table>
+<div class="card-columns text-center m-3 mb-5 text-white">
+  <div class="card bg-dark" style="width: 18rem;" *ngFor="let producto of productos; let i = index">
+    <img class="card-img-top" src="./../../../assets/img/{{producto.imagen}}" alt="Not found xd">
+    <div class="card-body">
+      <h5 class="card-title">{{producto.descripcion}}</h5>
+      <p class="card-text">Q.{{producto.precio}}</p>
+      <a><button (click)="eliminar(producto.descripcion)" class="btn btn-outline-danger zoom">
+          Eliminar</button></a>
+    </div>
+  </div>
 </div>

@@ -8,22 +8,42 @@ export class ProductosService {
     {
      'descripcion' : 'Pants',
      'precio' : 150.00,
-     'imagen' : 'noimage.png'
+     'imagen' : 'Pants.jpg'
     },
     {
       'descripcion' : 'Camisa',
       'precio' : 350.00,
-      'imagen' : 'noimage.png'
+      'imagen' : 'camisa.jpg'
      },
      {
       'descripcion' : 'Pantalones',
       'precio' : 100.00,
-      'imagen' : 'noimage.png'
+      'imagen' : 'Pan.jpg'
      },
      {
       'descripcion' : 'Faldas',
-      'precio' : 250.00,
-      'imagen' : 'noimage.png'
+      'precio' : 300.00,
+      'imagen' : 'Falda.jpg'
+     },
+     {
+      'descripcion' : 'Poleras',
+      'precio' : 500.00,
+      'imagen' : 'Polera.png'
+     },
+     {
+      'descripcion' : 'Zapatos',
+      'precio' : 200.00,
+      'imagen' : 'Zapatos.jpg'
+     },
+     {
+      'descripcion' : 'Sandalias',
+      'precio' : 100.00,
+      'imagen' : 'sandalias.jpg'
+     },
+     {
+      'descripcion' : 'Sueteres',
+      'precio' : 75.00,
+      'imagen' : 'Sueter.jpg'
      }
   ];
   constructor() { }
