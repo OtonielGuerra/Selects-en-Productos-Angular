@@ -1,2 +1,4 @@
-<app-selects (emitirDescripcion)="save($event)" [productos]="data"></app-selects>
-<app-tabla (emitirDescripcion)= "eliminar($event)" [productos]="data"></app-tabla>
+<!-- <app-selects (emitirDescripcion)="eliminar($event)" [productos]="data"></app-selects>
+<app-tabla (emitirDescripcion)= "eliminar($event)" [productos]="data"></app-tabla> -->
+<app-selects (emitirDescripcion)="eliminar($event)" [categorias]="data"></app-selects>
+<app-tabla2 (emitirDescripcion)="eliminar($event)" [categorias]="data"></app-tabla2>
